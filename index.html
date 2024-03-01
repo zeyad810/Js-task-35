@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .done {
+            text-decoration: line-through;
+            color: red;
+
+        }
+
+        
+
+        input {
+            color: blue;
+        }
+
+        button {
+            color: blue;
+            font-size: 14px;
+        }
+    </style>
+    <title>Task Manager</title>
+</head>
+
+<body>
+    <div class="parent">
+        <h2>All Tasks: <span id="all">0</span></h2>
+        <h2>Done Tasks: <span id="done">0</span></h2>
+        <h2>Pending Tasks: <span id="pending">0</span></h2>
+        <div>
+            <input type="text" placeholder="New Task.." id="taskInput">
+            <button onclick="createTask()">+</button>
+        </div>
+        <ul id="tasks"></ul>
+    </div>
+
+    <script src="main.js">
+
+    </script>
+</body>
+
+</html>
